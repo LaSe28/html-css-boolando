@@ -90,7 +90,7 @@ img{
     left: 0;
 }
 
-.first-row::after{
+.second-row, .first-row::after{
     content: "";
     display: table;
     clear: both;
