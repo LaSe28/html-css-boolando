@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+.product{
+    width: 30%;
+    float: left; 
+    position: relative;
+}
+
+.center{
+    margin:1.5%
+}
+
+img{
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+.info{
+    position: absolute;
+    bottom: 1em;
+    font-weight: 700;
+}
+
+.discount{
+    padding: 0.4em;
+    background-color: red;
+    color: white;
+}
+
+.sost{
+    padding: 0.4em;
+    background-color: green;
+    color: white;
+}
