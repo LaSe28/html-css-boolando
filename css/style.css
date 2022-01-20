@@ -11,16 +11,16 @@ html{
 .container{
     width: 60%;
     margin: auto;
-    position: relative;
 }
 .product{
-    width: 30%;
+    width: 32%;
     float: left; 
     position: relative;
+    margin-top: 2em;
 }
 
 .center{
-    margin:1.5%
+    margin: 2em 2%;
 }
 
 img{
@@ -33,8 +33,9 @@ img{
 
 .info{
     position: absolute;
-    bottom: 1em;
+    bottom: 5rem;
     font-weight: 700;
+    font-size: 0.7rem;
 }
 
 .discount{
@@ -47,4 +48,50 @@ img{
     padding: 0.4em;
     background-color: green;
     color: white;
+}
+
+.name{
+    margin-top: 0.5rem;
+}
+
+.brand{
+    font-size: 0.7rem;
+    color: rgb(58, 58, 58);
+}
+
+.model{
+    text-transform: uppercase;
+}
+
+.price1{
+    color: red;
+    font-weight: 700;
+}
+
+
+.price2{
+    text-decoration: line-through;
+    color: rgb(58, 58, 58);
+}
+
+.heart{
+    padding: 0.3rem 0.7rem;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    font-size: 1.4rem;
+}
+
+.product:hover .hidden{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.first-row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
