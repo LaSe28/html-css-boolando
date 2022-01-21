@@ -83,7 +83,7 @@ img{
     font-size: 1.4rem;
 }
 
-.product:hover .hidden{
+.image:hover .hidden{
     display: inline-block;
     position: absolute;
     top: 0;
